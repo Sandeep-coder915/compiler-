@@ -67,7 +67,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Online Compiler</h1>
+      <h1 style={{color:'white'}}>Online Compiler</h1>
       <TabSwitcher activeTab={activeTab} setActiveTab={setActiveTab} />
       
       {activeTab === 'web' && (

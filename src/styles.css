@@ -4,13 +4,21 @@
     
   }
   
-  
+  body{
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWc0cnBzOWd5eHJsZ2R2dWhoZW9meXg0MnI0anExZ21hNGJ5OHBzcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3vRnoppYtfEbemBO/giphy.webp');
+    /* background-size:cov; */
+    /* background-repeat: no-repeat; */
+  }
+  h3{
+    color: white;
+  }
   .editor-container {
     margin-bottom: 15px;
    
   }
   
   .code-editor {
+
     width: 100%;
     height: 150px;
     border: 1px solid #ddd;
