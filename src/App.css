@@ -1,1 +1,5 @@
  
+  /* Once the image has loaded, make it visible */
+  body img[data-loaded="true"] {
+    opacity: 1;                   /* Fade-in effect after image is loaded */
+  }
